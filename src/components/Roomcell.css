@@ -1,0 +1,42 @@
+.roomcell {
+    align-items: center;
+    width: 50%;
+    height: 20rem;
+    margin: 30px 10px 20px 50px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    background-color: #DDEDFF;
+
+    border: 10px;
+}
+.roomcell:hover {
+    transform: scale(1.01);
+
+    box-shadow: #90EE90;
+
+  }
+
+.id {
+    text-align: left;
+    width: 45%;
+    font-size: 24px;
+    color: black;
+    height: 100%;
+    
+}
+
+.name {
+    text-align: right;
+    width: 45%;
+    font-size: 24px;
+    color: green;
+    /* text-transform: lowercase; */
+    color: black;
+    height: 100%;
+
+
+}
+
+.inline {
+    display: inline-block;
+}

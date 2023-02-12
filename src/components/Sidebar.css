@@ -1,0 +1,204 @@
+.Logo {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.sidebar {
+    /* display: inline; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    /* overflow-y: scroll; */
+    flex: 1;
+}
+
+
+/* ------------- */
+
+.alert {
+    flex: 2;
+    width: 100%;
+    height: 100%;
+
+}
+
+.project {
+    /* width: 45%; */
+    /* padding: 2em; */
+    height: 45rem;
+    width: 55rem;
+    margin: 10rem;
+    position: relative;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  
+    /* margin: 0 auto; */
+    text-align: center;
+    border-radius: 20px;
+    background-color: #DDEDFF;
+  }
+  
+  .project:hover {
+    transform: scale(1.01);
+
+    box-shadow: #90EE90;
+  
+  }
+  
+  .semiText {
+    font-size: 30px;
+    color: rgb(61, 59, 59);
+    margin-bottom: 7px;
+  }
+  
+  .semiText2 {
+    font-size: 12px;
+    /* margin-bottom: 5px; */
+    color: white;
+    border-radius: 20px 0px;
+    /* margin-bottom: 20px; */
+    /* top: 3px; */
+  
+  }
+  
+  .vid {
+    border-radius: 20px 20px 0px 0px;
+
+    width: 100%;
+    height: 80%;
+  }
+  
+  .content {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    /* grid-gap: 2em; */
+  }
+  
+  .rightContent {
+    text-align: left;
+    /* text-decoration: underline;   */
+    padding-left: 10 rem;
+    /* background-color: #BCD8F7; */
+    /* padding-top: 25px; */
+  
+  
+  }
+  .leftContent {
+    text-align: left;
+    /* text-decoration: underline; */
+    padding-left: 10 rem;
+  
+  }
+  .temp1 {
+    display: inline-block;
+    
+  }
+  .room {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 20px 0px;
+    font-size: 21.6px;
+    background-color: #375578;
+    /* border: 2px solid #3498db; */
+    position: absolute;
+    /* margin: auto; */
+    left: 0;
+    top: 0;
+  }
+  
+  .greenCircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 21.6px;
+    background-color: green;
+    /* border: 2px solid #3498db; */
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .grayCircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 21.6px;
+    background-color: gray;
+    /* border: 2px solid #3498db; */
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    right: 10px;
+  }
+
+  .App {
+    display: flex;
+    text-align: center;
+    overflow-y: hidden;
+  }
+/* ----------------   */
+
+
+.roomcell {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: 6rem;
+  margin: 5px 10px 20px 5px;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #DDEDFF;
+  border: 1px;
+}
+.red {
+  align-items: center;
+  width: 95%;
+  height: 6rem;
+  margin: 5px 10px 20px 5px;
+  align-items: center;
+  border-radius: 20px;
+  background-color: red;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  border: 1px;
+}
+.roomcell:hover {
+    transform: scale(1.01);
+
+    box-shadow: #90EE90;
+
+  
+  }
+  .id {
+    text-align: left;
+    width: 45%;
+    font-size: 18px;
+    color: black;
+    height: 50%;
+    
+}
+
+.name {
+    text-align: right;
+    width: 45%;
+    font-size: 24px;
+    color: green;
+    /* text-transform: lowercase; */
+    color: black;
+    height: 50%;
+}
+
+.inline {
+    display: inline-block;
+}

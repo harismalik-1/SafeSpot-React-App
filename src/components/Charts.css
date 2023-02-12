@@ -1,0 +1,7 @@
+.charts {
+    /* display: inline; */
+
+    color: green;
+    background-color: black;
+    flex: 2;
+}
